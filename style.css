@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.bodycontainer{
+    margin: auto;
+}
+header .cabecalho{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    background-color: #122A57;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    color: white;
+}
+header .cabecalho h1{
+    margin-left: 30px;
+    
+}
+header .cabecalho ul{
+    display: flex;
+    margin-right: 10px;
+}
+header .cabecalho li{
+    list-style: none;
+    margin-right: 20px;
+}
+header .cabecalho li a{
+    color: white;
+    text-decoration: none;
+}
+.setor1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.setor1 .divisoria1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.setor1 .divisoria2{
+    width: 50%;
+}
+.setor1 .divisoria1 .content{
+    justify-content: center;
+}
+.divisoria1 .content{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.divisoria1 .content h1{
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.divisoria1 .content a{
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    background-color: #122A57;
+    color: white;
+    border-radius: 10px;
+    align-self: center;
+    margin-top: 10px;
+}
+.divisoria2 img{
+    width: 550px;
+}
